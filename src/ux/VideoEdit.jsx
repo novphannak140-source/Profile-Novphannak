@@ -1,4 +1,6 @@
 import Stronger from "../assets/video/Stronger.mp4";
+import Walk from "../assets/video/Walk.mp4";
+import Start from "../assets/video/Start.mp4";
 
 function VideoEdit() {
   const videos = [
@@ -8,6 +10,20 @@ function VideoEdit() {
       description: "Video Cenematic Part 1, lern Edit Video",
       tech: ["DaVinci Resolve", "Premiere Pro"],
       video: Stronger,
+    },
+    {
+      id: 2,
+      title: " Walk",
+      description: "Video Cenematic Part 1, lern Edit Video",
+      tech: ["DaVinci Resolve", "Premiere Pro"],
+      video: Walk,
+    },
+    {
+      id: 3,
+      title: " Start",
+      description: "Video Cenematic Part 1, lern Edit Video",
+      tech: ["DaVinci Resolve", "Premiere Pro"],
+      video: Start,
     },
    
   ];
