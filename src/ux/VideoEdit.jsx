@@ -1,29 +1,37 @@
 import Stronger from "../assets/video/Stronger.mp4";
 import Walk from "../assets/video/Walk.mp4";
 import Start from "../assets/video/Start.mp4";
+import Morning from "../assets/video/Morning.mp4";
 
 function VideoEdit() {
   const videos = [
     {
       id: 1,
       title: " Stronger",
-      description: "Video Cenematic Part 1, lern Edit Video",
+      description: "Video Cenematic Part 1",
       tech: ["DaVinci Resolve", "Premiere Pro"],
       video: Stronger,
     },
     {
       id: 2,
-      title: " Walk",
-      description: "Video Cenematic Part 1, lern Edit Video",
+      title: " Walking alone doesn't make you lonely it helps you feel better about everything around you.",
+      description: "Video Cenematic Part 2",
       tech: ["DaVinci Resolve", "Premiere Pro"],
       video: Walk,
     },
     {
       id: 3,
-      title: " Start",
-      description: "Video Cenematic Part 1, lern Edit Video",
+      title: "Don't be afraid to start.",
+      description: "Video Cenematic Part 3",
       tech: ["DaVinci Resolve", "Premiere Pro"],
       video: Start,
+    },
+    {
+      id: 4,
+      title: "My Morning 🍃✨🌞",
+      description: "Video Cenematic Part 3",
+      tech: ["DaVinci Resolve", "Premiere Pro"],
+      video: Morning,
     },
    
   ];
