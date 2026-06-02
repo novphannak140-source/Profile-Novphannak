@@ -1,0 +1,5 @@
+body.dark-mode {
+  background-color: #0f172a; /* dark slate */
+  color: white;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}

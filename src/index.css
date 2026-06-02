@@ -1,0 +1,36 @@
+@import "tailwindcss";
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
+}
+@keyframes textGradient {
+  0% {
+    color: #2563eb;
+  } /* blue-600 */
+
+  50% {
+    color: #dc2626;
+  } /* red-600 */
+  75% {
+    color: #9333ea;
+  } /* purple-600 */
+  100% {
+    color: white;
+  }
+}
+
+.animate-text-gradient {
+  animation: textGradient 6s linear infinite;
+}
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+body {
+  background: #0f172a;
+  color: white;
+}
+body.dark-mode {
+  background: linear-gradient(to bottom, #4c1d95, #0f172a, #000000);
+  color: #999;
+}
