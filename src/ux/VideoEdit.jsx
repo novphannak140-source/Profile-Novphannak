@@ -58,7 +58,7 @@ function VideoEdit() {
                 className="w-full h-[calc(100%-24px)] object-cover"
                 src={video.video}
                 muted
-                loop
+               
                 controls
               />
             </div>
