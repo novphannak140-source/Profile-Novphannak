@@ -174,7 +174,7 @@ const Project = () => {
         {/* Project Website  */}
         <div className=" py-2 ">
           <div className="text-xl font-bold  text-center py-2 font-serif border-gray-600 border-2 bg-gray-800 ">
-            <h1>Video Editor</h1>
+            <h1>Video Edit</h1>
           </div>
         </div>
 
