@@ -12,7 +12,7 @@ function Navbar() {
     { id: 2, name: "ABOUT", Link: "about" },
     { id: 3, name: "SKILL", Link: "skil" },
     { id: 4, name: "PROJECT", Link: "project" },
-    { id: 5, name: "CONTACET", Link: "contacet" },
+    { id: 5, name: "CONTACT", Link: "contacet" },
   ];
 
   return (
