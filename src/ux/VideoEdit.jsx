@@ -29,7 +29,7 @@ function VideoEdit() {
     {
       id: 4,
       title: "My Morning 🍃✨🌞",
-      description: "Video Cenematic Part 3",
+      description: "Video Cenematic Part 4",
       tech: ["DaVinci Resolve", "Premiere Pro"],
       video: Morning,
     },
@@ -58,7 +58,6 @@ function VideoEdit() {
                 className="w-full h-[calc(100%-24px)] object-cover"
                 src={video.video}
                 muted
-               
                 controls
               />
             </div>
