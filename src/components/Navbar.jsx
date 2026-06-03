@@ -23,7 +23,7 @@ function Navbar() {
           <div className="">
             <Link to="/" className="font-bold">
               <img
-                className="w-[50px] h-[50px] rounded-full border-2  border-white shadow-md transform group-hover:scale-102 transition-transform duration-500"
+                className="w-[50px] h-[55px] rounded-full border-2  border-white shadow-md transform group-hover:scale-102 transition-transform duration-500"
                 src={imgcv}
                 alt=""
               />
