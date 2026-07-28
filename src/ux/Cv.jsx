@@ -7,7 +7,10 @@ function Cv() {
       <div className="grid grid-cols-1  md:grid-cols-1 lg:grid-cols-1">
         <div className="col-span-1">
           <div className="lg:w-130 md:w-170 w-90">
-            <img src={Profile} alt="" />
+
+          <h1 className="flex items-center justify-center font-bold font-serif">File Update</h1>
+
+            {/* <img src={Profile} alt="" /> */}
           </div>
         </div>
       </div>

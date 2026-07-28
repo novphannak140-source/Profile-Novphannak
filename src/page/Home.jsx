@@ -6,6 +6,7 @@ import cv from "../assets/photos/NOV Phannak-cv.jpg";
 import per from "../assets/photos/Persnal photo.jpg";
 import work from "../assets/photos/Poster work.jpg";
 import photo from "../assets/photos/Photo make project.jpg";
+import Personal from "../assets/IMG/Personal.jpg";
 const Home = () => {
   const Profile = [{ id: 1, name: "Look Cv ", Link: "/cv" }];
   const [loading, setLoading] = useState(true);
@@ -108,7 +109,7 @@ const Home = () => {
                       <div className="flex gap-4 font-bold font-serif">
                         <img
                           className="w-[35px] h-[35px] rounded-full border-2 border-white shadow-md transform group-hover:scale-102 transition-transform duration-500"
-                          src={imgcv}
+                          src={Personal}
                           alt=""
                         />
                         <div className="flex flex-col">
@@ -137,7 +138,7 @@ const Home = () => {
 
                 {/* Main image with hover effects */}
                 <img
-                  src={photo}
+                  src={Personal}
                   alt="Profile photo"
                   className="rounded-2xl transform group-hover:scale-102 transition-transform duration-500 ease-out"
                 />
