@@ -4,7 +4,9 @@ import Stronger from "../assets/video/Stronger.mp4";
 import Walk from "../assets/video/Walk.mp4";
 import Start from "../assets/video/Start.mp4";
 import Morning from "../assets/video/Morning.mp4";
-
+import Rupp from "../assets/video/Rupp.mp4";
+import Rupppartone from "../assets/video/Rupppartone.mp4";
+import Onday from "../assets/video/Onday.mp4";
 function VideoEdit() {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
@@ -40,6 +42,30 @@ function VideoEdit() {
       description: "Video Cinematic Part 4",
       tech: ["DaVinci Resolve", "Premiere Pro"],
       video: Morning,
+      color: "from-orange-500 to-yellow-500",
+    },
+    {
+      id: 5,
+      title: "Time reminded me that nothing lasts forever.",
+      description: "Video Cinematic Part 5",
+      tech: ["DaVinci Resolve", ],
+      video: Rupp,
+      color: "from-orange-500 to-yellow-500",
+    },
+    {
+      id: 6,
+      title: "Green trees and a fresh atmosphere at RUPP 💚🏫",
+      description: "Video Cinematic Part 6",
+      tech: ["DaVinci Resolve", ],
+      video: Rupppartone,
+      color: "from-orange-500 to-yellow-500",
+    },
+    {
+      id: 7,
+      title: "maybe, one day 🙂🎥",
+      description: "Video Cinematic Part 7",
+      tech: ["DaVinci Resolve", ],
+      video: Onday,
       color: "from-orange-500 to-yellow-500",
     },
   ];
